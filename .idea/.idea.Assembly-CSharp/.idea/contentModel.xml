@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$/../.Rider2019.2/system/extResources" t="IncludeRecursive" />
+    <e p="$PROJECT_DIR$/../.Rider2019.2/system/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_Assembly-CSharp.-109635131.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.sln" t="IncludeFlat" />
+      <e p="Assets" t="Include">
+        <e p="Input" t="Include">
+          <e p="PlayerOneInput.cs" t="Include" />
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="Controls" t="Include">
+            <e p="ActionButton.cs" t="Include" />
+            <e p="Vector2GameEvent.cs" t="Include" />
+            <e p="Vector2GameEventListener.cs" t="Include" />
+            <e p="Vector2UnityEvent.cs" t="Include" />
+          </e>
+          <e p="GameEvent.cs" t="Include" />
+          <e p="GameEventListener.cs" t="Include" />
+          <e p="Generic" t="Include">
+            <e p="GenericGameEvent.cs" t="Include" />
+          </e>
+          <e p="Meter.cs" t="Include" />
+          <e p="NPC" t="Include">
+            <e p="NPC.cs" t="Include" />
+            <e p="NPCGameEvent.cs" t="Include" />
+            <e p="NPCGameEventListener.cs" t="Include" />
+            <e p="NPCManager.cs" t="Include" />
+            <e p="NPCRuntimeSet.cs" t="Include" />
+            <e p="NPCStats.cs" t="Include" />
+            <e p="NPCStatsReference.cs" t="Include" />
+            <e p="NPCUnityEvent.cs" t="Include" />
+          </e>
+          <e p="Objects" t="Include">
+            <e p="BoolVariable.cs" t="Include" />
+            <e p="FloatReference.cs" t="Include" />
+            <e p="FloatVariable.cs" t="Include" />
+            <e p="InputVariable.cs" t="Include" />
+            <e p="IntReference.cs" t="Include" />
+            <e p="IntVariable.cs" t="Include" />
+            <e p="RuntimeSet.cs" t="Include" />
+          </e>
+          <e p="Player" t="Include">
+            <e p="LevelMeter.cs" t="Include" />
+            <e p="PlayerComponent.cs" t="Include" />
+            <e p="PlayerData.cs" t="Include" />
+            <e p="PlayerDataAction.cs" t="Include" />
+            <e p="PlayerInputLegacy.cs" t="Include" />
+            <e p="PlayerManager.cs" t="Include" />
+            <e p="PlayerPointer.cs" t="Include" />
+            <e p="PlayerScreen.cs" t="Include" />
+            <e p="SkillScreen.cs" t="Include" />
+            <e p="SkillScreenCounterGroup.cs" t="Include" />
+          </e>
+          <e p="SceneEvents.cs" t="Include" />
+          <e p="SpriteScaleComponent.cs" t="Include" />
+        </e>
+        <e p="Sprites" t="Include">
+          <e p="PixelUIpack" t="Include">
+            <e p="License.txt" t="Include" />
+            <e p="Spritesheet" t="Include">
+              <e p="spritesheetInfo.txt" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="Temp/bin" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
