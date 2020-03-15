@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: New Sprite Atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: b43632d3c304f57e2b8a2b46377102d3, type: 3}
+    - {fileID: 2800000, guid: ca4b97ab8124b5351b5520a9c1edd436, type: 3}
+    - {fileID: 2800000, guid: 86273aa3e7092b787a94939acb8b78e0, type: 3}
+    - {fileID: 2800000, guid: 63bb69f2adfe4bc3a9de3af5a8cf2dc6, type: 3}
+    - {fileID: 2800000, guid: d25b706f80e565d6581a9dd289e3416d, type: 3}
+    - {fileID: 2800000, guid: aa7517d121ce802cf9ca9322ef6bea55, type: 3}
+    - {fileID: 2800000, guid: 6e775f2c6db78174eb878a8a31231988, type: 3}
+    - {fileID: 2800000, guid: 0ae22b1eb8f30f56386d67e847c667f8, type: 3}
+    - {fileID: 2800000, guid: 41491cff000e92b18abe7d32a663eff1, type: 3}
+    - {fileID: 2800000, guid: 7a21f3b1c5fec7609902a77fa0a2cdac, type: 3}
+    - {fileID: 2800000, guid: cd3b5992dbfb278c2843e2ee7ffd985c, type: 3}
+    - {fileID: 2800000, guid: 9cf9601430f44dc1fb4e7c38715ea380, type: 3}
+    - {fileID: 2800000, guid: e0bc7bd7cef35a3cbbbd9ff7ecb9430a, type: 3}
+    - {fileID: 2800000, guid: d7bd8136da2d8a980a2eb3832c4e5dc3, type: 3}
+    - {fileID: 2800000, guid: 61313b9973781465db34a81baf25ae22, type: 3}
+    - {fileID: 2800000, guid: 21ed0c3226d92e9788ca49a9220499ae, type: 3}
+    - {fileID: 2800000, guid: d232c8fc33eb8e2aa82b32d9c596b9db, type: 3}
+    - {fileID: 2800000, guid: 980a0a318ed9e54fb86d96473508ed21, type: 3}
+    - {fileID: 2800000, guid: 96ecc6401d2add40f85fe3e33463408d, type: 3}
+    - {fileID: 2800000, guid: d0ad6e41b01142d9384770511c5f7b81, type: 3}
+    totalSpriteSurfaceArea: 25600
+    bindAsDefault: 1
+    storedHash:
+      serializedVersion: 2
+      Hash: 489f55697d4142d484fd4e3defc7fd34
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 96ecc6401d2add40f85fe3e33463408d, type: 3}
+  - {fileID: 21300000, guid: 980a0a318ed9e54fb86d96473508ed21, type: 3}
+  - {fileID: 21300000, guid: d0ad6e41b01142d9384770511c5f7b81, type: 3}
+  - {fileID: 21300000, guid: 7a21f3b1c5fec7609902a77fa0a2cdac, type: 3}
+  - {fileID: 21300000, guid: aa7517d121ce802cf9ca9322ef6bea55, type: 3}
+  - {fileID: 21300000, guid: 21ed0c3226d92e9788ca49a9220499ae, type: 3}
+  - {fileID: 21300000, guid: cd3b5992dbfb278c2843e2ee7ffd985c, type: 3}
+  - {fileID: 21300000, guid: 63bb69f2adfe4bc3a9de3af5a8cf2dc6, type: 3}
+  - {fileID: 21300000, guid: 86273aa3e7092b787a94939acb8b78e0, type: 3}
+  - {fileID: 21300000, guid: b43632d3c304f57e2b8a2b46377102d3, type: 3}
+  - {fileID: 21300000, guid: 9cf9601430f44dc1fb4e7c38715ea380, type: 3}
+  - {fileID: 21300000, guid: d7bd8136da2d8a980a2eb3832c4e5dc3, type: 3}
+  - {fileID: 21300000, guid: e0bc7bd7cef35a3cbbbd9ff7ecb9430a, type: 3}
+  - {fileID: 21300000, guid: 61313b9973781465db34a81baf25ae22, type: 3}
+  - {fileID: 21300000, guid: ca4b97ab8124b5351b5520a9c1edd436, type: 3}
+  - {fileID: 21300000, guid: 6e775f2c6db78174eb878a8a31231988, type: 3}
+  - {fileID: 21300000, guid: d232c8fc33eb8e2aa82b32d9c596b9db, type: 3}
+  - {fileID: 21300000, guid: 0ae22b1eb8f30f56386d67e847c667f8, type: 3}
+  - {fileID: 21300000, guid: d25b706f80e565d6581a9dd289e3416d, type: 3}
+  - {fileID: 21300000, guid: 41491cff000e92b18abe7d32a663eff1, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - health_19
+  - health_18
+  - health_20
+  - health_10
+  - health_6
+  - health_16
+  - health_11
+  - health_4
+  - health_3
+  - health_1
+  - health_12
+  - health_14
+  - health_13
+  - health_15
+  - health_2
+  - health_7
+  - health_17
+  - health_8
+  - health_5
+  - health_9
+  m_Tag: New Sprite Atlas
+  m_IsVariant: 0

@@ -1,0 +1,41 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Player/PlayerScreen.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Player/SkillScreenCounterGroup.cs" Line="5" Column="1" />
+      <File FileName="Assets/Scripts/Player/PlayerComponent.cs" Line="17" Column="41" />
+      <File FileName="Assets/Scripts/Player/PlayerManager.cs" Line="45" Column="59" />
+      <File FileName="Assets/Scripts/Player/PlayerScreen.cs" Line="11" Column="2" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MeterGame" expanded="True">
+            <Node name="Assembly-CSharp" expanded="True">
+              <Node name="Assets" expanded="True">
+                <Node name="Scripts" expanded="True">
+                  <Node name="Player" expanded="True">
+                    <Node name="PlayerScreen.cs" selected="True" />
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+            <Node name="Assembly-CSharp-Editor" expanded="True">
+              <Node name="Assets" expanded="True">
+                <Node name="Editor" expanded="True">
+                  <Node name="Events" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp-Editor PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
