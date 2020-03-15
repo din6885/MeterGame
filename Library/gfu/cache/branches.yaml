@@ -13,18 +13,39 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2020-02-24T17:39:21.956+01:00
-  initializedAtString: 2020-02-24T17:39:21.836+01:00
+  lastUpdatedAtString: 2020-03-15T07:18:55.445+01:00
+  initializedAtString: 2020-03-15T07:11:12.220+01:00
   localBranches: []
-  remoteBranches: []
-  remotes: []
+  remoteBranches:
+  - name: origin/master
+    tracking: '[None]'
+  remotes:
+  - name: origin
+    url: https://github.com/din6885/MeterGame.git
+    login: 
+    user: 
+    host: 
+    function: 0
+    token: 
   localConfigBranches:
     keys: []
     values: []
   remoteConfigBranches:
-    keys: []
-    subKeys: []
-    subKeyValues: []
+    keys:
+    - origin
+    subKeys:
+    - Values:
+      - master
+    subKeyValues:
+    - Values:
+      - name: master
+        remote:
+          name: origin
+          url: https://github.com/din6885/MeterGame.git
+        trackingBranch: 
   configRemotes:
-    keys: []
-    values: []
+    keys:
+    - origin
+    values:
+    - name: origin
+      url: https://github.com/din6885/MeterGame.git
