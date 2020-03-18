@@ -48,7 +48,6 @@
             <e p="PlayerData.cs" t="Include" />
             <e p="PlayerDataAction.cs" t="Include" />
             <e p="PlayerInputLegacy.cs" t="Include" />
-            <e p="PlayerManager.cs" t="Include" />
             <e p="PlayerPointer.cs" t="Include" />
             <e p="PlayerScreen.cs" t="Include" />
             <e p="SkillScreen.cs" t="Include" />

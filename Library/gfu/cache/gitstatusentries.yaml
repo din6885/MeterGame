@@ -13,18 +13,66 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-03-15T07:21:09.497+01:00
-  initializedAtString: 2020-03-15T06:43:02.980+01:00
+  lastUpdatedAtString: 2020-03-17T23:07:27.078+01:00
+  initializedAtString: 2020-03-17T23:07:27.078+01:00
   entries:
-  - path: Library/gfu/cache/branches.yaml
-    fullPath: /home/michael/MeterGame/Library/gfu/cache/branches.yaml
-    projectPath: Library/gfu/cache/branches.yaml
+  - path: .idea/.idea.Assembly-CSharp/.idea/workspace.xml
+    fullPath: /home/michael/MeterGame/.idea/.idea.Assembly-CSharp/.idea/workspace.xml
+    projectPath: .idea/.idea.Assembly-CSharp/.idea/workspace.xml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library/gfu/cache/gitlog.yaml
-    fullPath: /home/michael/MeterGame/Library/gfu/cache/gitlog.yaml
-    projectPath: Library/gfu/cache/gitlog.yaml
+  - path: .vs/MeterGame/xs/UserPrefs.xml
+    fullPath: /home/michael/MeterGame/.vs/MeterGame/xs/UserPrefs.xml
+    projectPath: .vs/MeterGame/xs/UserPrefs.xml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assembly-CSharp.csproj
+    fullPath: /home/michael/MeterGame/Assembly-CSharp.csproj
+    projectPath: Assembly-CSharp.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets/Prefabs/PlayerObject.prefab
+    fullPath: /home/michael/MeterGame/Assets/Prefabs/PlayerObject.prefab
+    projectPath: Assets/Prefabs/PlayerObject.prefab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets/Scenes/SampleScene.unity
+    fullPath: /home/michael/MeterGame/Assets/Scenes/SampleScene.unity
+    projectPath: Assets/Scenes/SampleScene.unity
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets/Scripts/Player/PlayerComponent.cs
+    fullPath: /home/michael/MeterGame/Assets/Scripts/Player/PlayerComponent.cs
+    projectPath: Assets/Scripts/Player/PlayerComponent.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets/Scripts/Player/PlayerManager.cs
+    fullPath: /home/michael/MeterGame/Assets/Scripts/Player/PlayerManager.cs
+    projectPath: Assets/Scripts/Player/PlayerManager.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Scripts/Player/PlayerManager.cs.meta
+    fullPath: /home/michael/MeterGame/Assets/Scripts/Player/PlayerManager.cs.meta
+    projectPath: Assets/Scripts/Player/PlayerManager.cs.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Sprites/textures/New Sprite Atlas.spriteatlas
+    fullPath: /home/michael/MeterGame/Assets/Sprites/textures/New Sprite Atlas.spriteatlas
+    projectPath: Assets/Sprites/textures/New Sprite Atlas.spriteatlas
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/assetDatabase3
+    fullPath: /home/michael/MeterGame/Library/assetDatabase3
+    projectPath: Library/assetDatabase3
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -52,3 +100,231 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Library/InspectorExpandedItems.asset
+    fullPath: /home/michael/MeterGame/Library/InspectorExpandedItems.asset
+    projectPath: Library/InspectorExpandedItems.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/metadata/12/1230febaae7d22ce9873fac51b9bfdff.info
+    fullPath: /home/michael/MeterGame/Library/metadata/12/1230febaae7d22ce9873fac51b9bfdff.info
+    projectPath: Library/metadata/12/1230febaae7d22ce9873fac51b9bfdff.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/metadata/1f/1f5d2a6f7b8c5cddab707a5bd0db111d
+    fullPath: /home/michael/MeterGame/Library/metadata/1f/1f5d2a6f7b8c5cddab707a5bd0db111d
+    projectPath: Library/metadata/1f/1f5d2a6f7b8c5cddab707a5bd0db111d
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/1f/1f5d2a6f7b8c5cddab707a5bd0db111d.info
+    fullPath: /home/michael/MeterGame/Library/metadata/1f/1f5d2a6f7b8c5cddab707a5bd0db111d.info
+    projectPath: Library/metadata/1f/1f5d2a6f7b8c5cddab707a5bd0db111d.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/67/67720af630d53581983c1ed624604d8e.info
+    fullPath: /home/michael/MeterGame/Library/metadata/67/67720af630d53581983c1ed624604d8e.info
+    projectPath: Library/metadata/67/67720af630d53581983c1ed624604d8e.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/metadata/7a/7a806e49e84632a09bea4ba01e07a870
+    fullPath: /home/michael/MeterGame/Library/metadata/7a/7a806e49e84632a09bea4ba01e07a870
+    projectPath: Library/metadata/7a/7a806e49e84632a09bea4ba01e07a870
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/metadata/7a/7a806e49e84632a09bea4ba01e07a870.info
+    fullPath: /home/michael/MeterGame/Library/metadata/7a/7a806e49e84632a09bea4ba01e07a870.info
+    projectPath: Library/metadata/7a/7a806e49e84632a09bea4ba01e07a870.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/metadata/ac/acada4dd3339f8c01ae77697859ed9df
+    fullPath: /home/michael/MeterGame/Library/metadata/ac/acada4dd3339f8c01ae77697859ed9df
+    projectPath: Library/metadata/ac/acada4dd3339f8c01ae77697859ed9df
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll
+    fullPath: /home/michael/MeterGame/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll
+    projectPath: Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/PackageCache/com.unity.ads@2.0.8/README.md
+    fullPath: /home/michael/MeterGame/Library/PackageCache/com.unity.ads@2.0.8/README.md
+    projectPath: Library/PackageCache/com.unity.ads@2.0.8/README.md
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/PackageCache/com.unity.ads@2.0.8/UnityEngine.Advertisements.dll
+    fullPath: /home/michael/MeterGame/Library/PackageCache/com.unity.ads@2.0.8/UnityEngine.Advertisements.dll
+    projectPath: Library/PackageCache/com.unity.ads@2.0.8/UnityEngine.Advertisements.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll
+    fullPath: /home/michael/MeterGame/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll
+    projectPath: Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll
+    fullPath: /home/michael/MeterGame/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll
+    projectPath: Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll
+    fullPath: /home/michael/MeterGame/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll
+    projectPath: Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll
+    fullPath: /home/michael/MeterGame/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll
+    projectPath: Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/PackageCache/com.unity.purchasing@2.0.6/README.md
+    fullPath: /home/michael/MeterGame/Library/PackageCache/com.unity.purchasing@2.0.6/README.md
+    projectPath: Library/PackageCache/com.unity.purchasing@2.0.6/README.md
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/PackageCache/com.unity.purchasing@2.0.6/UnityEngine.Purchasing.dll
+    fullPath: /home/michael/MeterGame/Library/PackageCache/com.unity.purchasing@2.0.6/UnityEngine.Purchasing.dll
+    projectPath: Library/PackageCache/com.unity.purchasing@2.0.6/UnityEngine.Purchasing.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/ScriptAssemblies/Assembly-CSharp.dll
+    fullPath: /home/michael/MeterGame/Library/ScriptAssemblies/Assembly-CSharp.dll
+    projectPath: Library/ScriptAssemblies/Assembly-CSharp.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/ScriptAssemblies/Assembly-CSharp.pdb
+    fullPath: /home/michael/MeterGame/Library/ScriptAssemblies/Assembly-CSharp.pdb
+    projectPath: Library/ScriptAssemblies/Assembly-CSharp.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+    fullPath: /home/michael/MeterGame/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+    projectPath: Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/StateCache/Hierarchy/350638-7a806e49e84632a09b.json
+    fullPath: /home/michael/MeterGame/Library/StateCache/Hierarchy/350638-7a806e49e84632a09b.json
+    projectPath: Library/StateCache/Hierarchy/350638-7a806e49e84632a09b.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/StateCache/Hierarchy/350638-mainStage.json
+    fullPath: /home/michael/MeterGame/Library/StateCache/Hierarchy/350638-mainStage.json
+    projectPath: Library/StateCache/Hierarchy/350638-mainStage.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache
+    fullPath: /home/michael/MeterGame/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache
+    projectPath: obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache
+    fullPath: /home/michael/MeterGame/obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache
+    projectPath: obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: obj/Debug/Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+    fullPath: /home/michael/MeterGame/obj/Debug/Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+    projectPath: obj/Debug/Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: ProjectSettings/TagManager.asset
+    fullPath: /home/michael/MeterGame/ProjectSettings/TagManager.asset
+    projectPath: ProjectSettings/TagManager.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/ProcessJobs/e9a6970f79cd12d8b075e7d72f1b07cb.bakert
+    fullPath: /home/michael/MeterGame/Temp/ProcessJobs/e9a6970f79cd12d8b075e7d72f1b07cb.bakert
+    projectPath: Temp/ProcessJobs/e9a6970f79cd12d8b075e7d72f1b07cb.bakert
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/UnityTempFile-1969570dcf9c5e8e292b6edcb27856c2
+    fullPath: /home/michael/MeterGame/Temp/UnityTempFile-1969570dcf9c5e8e292b6edcb27856c2
+    projectPath: Temp/UnityTempFile-1969570dcf9c5e8e292b6edcb27856c2
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Temp/UnityTempFile-21f3ab3ab8a19a602840c1be51a069ca
+    fullPath: /home/michael/MeterGame/Temp/UnityTempFile-21f3ab3ab8a19a602840c1be51a069ca
+    projectPath: Temp/UnityTempFile-21f3ab3ab8a19a602840c1be51a069ca
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Temp/UnityTempFile-2b3dd3e2044455c3db34c9669c53d015
+    fullPath: /home/michael/MeterGame/Temp/UnityTempFile-2b3dd3e2044455c3db34c9669c53d015
+    projectPath: Temp/UnityTempFile-2b3dd3e2044455c3db34c9669c53d015
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Temp/UnityTempFile-42f39e5b8b5cabd7588b48039de97d2a
+    fullPath: /home/michael/MeterGame/Temp/UnityTempFile-42f39e5b8b5cabd7588b48039de97d2a
+    projectPath: Temp/UnityTempFile-42f39e5b8b5cabd7588b48039de97d2a
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Temp/UnityTempFile-49dc3df9dd00c72f4a3ba0f0bb4038f2
+    fullPath: /home/michael/MeterGame/Temp/UnityTempFile-49dc3df9dd00c72f4a3ba0f0bb4038f2
+    projectPath: Temp/UnityTempFile-49dc3df9dd00c72f4a3ba0f0bb4038f2
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Temp/UnityTempFile-82d58d056e4d4b690829a3e633c166e6
+    fullPath: /home/michael/MeterGame/Temp/UnityTempFile-82d58d056e4d4b690829a3e633c166e6
+    projectPath: Temp/UnityTempFile-82d58d056e4d4b690829a3e633c166e6
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Temp/UnityTempFile-994bf5f2a6c62b6068e8abf673bef412
+    fullPath: /home/michael/MeterGame/Temp/UnityTempFile-994bf5f2a6c62b6068e8abf673bef412
+    projectPath: Temp/UnityTempFile-994bf5f2a6c62b6068e8abf673bef412
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Temp/UnityTempFile-a32f6aed726d59093aee0ab90a99a778
+    fullPath: /home/michael/MeterGame/Temp/UnityTempFile-a32f6aed726d59093aee0ab90a99a778
+    projectPath: Temp/UnityTempFile-a32f6aed726d59093aee0ab90a99a778
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Temp/UnityTempFile-bf49dde61da61187c9bb3684f0b7d52e
+    fullPath: /home/michael/MeterGame/Temp/UnityTempFile-bf49dde61da61187c9bb3684f0b7d52e
+    projectPath: Temp/UnityTempFile-bf49dde61da61187c9bb3684f0b7d52e
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Temp/UnityTempFile-c2c93ccdcffc32a27b8030d5cb73fdf6
+    fullPath: /home/michael/MeterGame/Temp/UnityTempFile-c2c93ccdcffc32a27b8030d5cb73fdf6
+    projectPath: Temp/UnityTempFile-c2c93ccdcffc32a27b8030d5cb73fdf6
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Temp/UnityTempFile-f75aa9366426f2f1cba5314ce7aa5420
+    fullPath: /home/michael/MeterGame/Temp/UnityTempFile-f75aa9366426f2f1cba5314ce7aa5420
+    projectPath: Temp/UnityTempFile-f75aa9366426f2f1cba5314ce7aa5420
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5

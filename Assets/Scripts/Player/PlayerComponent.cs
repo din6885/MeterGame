@@ -5,19 +5,67 @@ using UnityEngine.InputSystem;
 
 public class PlayerComponent : MonoBehaviour
 {
+    //Init
+
+    public GameObject PlayerPointerPrefab;
+
+    public GameObject PlayerScreenPrefab;
+
+    public GameObject PlayerSkillScreenPrefab;
+
     //Reference
-    public PlayerData PlayerData;
+    private GameObject PlayerPanel;
+
+    private GameObject NPCPanel;
+
+    public PlayerData[] PlayerDataAssets;
+
+    private PlayerData PlayerData;
 
     public GameObject Pointer;
 
-    public PlayerPointer PlayerPointerComponent;
+    private PlayerPointer PlayerPointerComponent;
 
-    public GameObject PlayerScreen;
+    private GameObject PlayerScreen;
 
-    public GameObject PlayerSkillScreen;
+    private GameObject PlayerSkillScreen;
 
     //OnPointAction
     public GameObject Selection;
+
+    private void OnEnable() {
+        PlayerPanel = GameObject.FindWithTag("PlayerPanel");
+        NPCPanel = GameObject.FindWithTag("NPCPanel");
+        OnPlayerJoined();
+    }
+
+    public void OnPlayerJoined()
+    {
+
+        PlayerScreen = Instantiate(PlayerScreenPrefab, PlayerPanel.transform);
+        PlayerSkillScreen = Instantiate(PlayerSkillScreenPrefab, PlayerScreen.transform);
+        Pointer = Instantiate(PlayerPointerPrefab, NPCPanel.transform);
+        PlayerPointerComponent = Pointer.GetComponent<PlayerPointer>();
+
+        for (int i = 0; i < PlayerDataAssets.Length;)
+        {
+            if (PlayerDataAssets[i].PlayerObject != null)
+            {
+                i++;
+
+            }
+            else
+            {
+                PlayerDataAssets[i].PlayerObject = gameObject;
+                PlayerData = PlayerDataAssets[i];
+                PlayerData.InitAsset();
+                return;
+            } 
+
+        }
+
+    }
+
 
     public void OnPoint(InputValue value)
     {

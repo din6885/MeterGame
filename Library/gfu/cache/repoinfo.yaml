@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2020-03-15T07:20:32.518+01:00
-  initializedAtString: 2020-03-15T06:42:50.144+01:00
+  lastUpdatedAtString: 2020-03-17T23:07:26.505+01:00
+  initializedAtString: 2020-03-17T23:07:26.505+01:00
   currentGitRemote:
     name: origin
-    url: https://github.com/din6885/MeterGame.git
+    url: https://github.com/din6885/MeterGame
     login: 
     user: 
     host: 
@@ -25,14 +25,14 @@ MonoBehaviour:
     token: 
   currentGitBranch:
     name: master
-    tracking: 
+    tracking: origin/master
   currentConfigBranch:
     name: master
     remote:
-      name: 
-      url: 
-    trackingBranch: 
+      name: origin
+      url: https://github.com/din6885/MeterGame
+    trackingBranch: master
   currentConfigRemote:
     name: origin
-    url: https://github.com/din6885/MeterGame.git
+    url: https://github.com/din6885/MeterGame
   currentHead: 

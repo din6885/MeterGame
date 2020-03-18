@@ -84,7 +84,6 @@
      <Compile Include="Assets\Scripts\Player\PlayerData.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerDataAction.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerInputLegacy.cs" />
-     <Compile Include="Assets\Scripts\Player\PlayerManager.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerPointer.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerScreen.cs" />
      <Compile Include="Assets\Scripts\Player\SkillScreen.cs" />

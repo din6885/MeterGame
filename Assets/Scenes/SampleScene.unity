@@ -139,7 +139,7 @@ GameObject:
   - component: {fileID: 255933539}
   m_Layer: 5
   m_Name: PlayerPanel
-  m_TagString: Untagged
+  m_TagString: PlayerPanel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1258,11 +1258,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1763169467}
-  - component: {fileID: 1763169466}
-  - component: {fileID: 1763169465}
   - component: {fileID: 1763169468}
   - component: {fileID: 1763169470}
-  - component: {fileID: 1763169471}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -1270,52 +1267,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1763169465
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1763169464}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 01614664b831546d2ae94a42149d80ac, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_RepeatDelay: 0.5
-  m_RepeatRate: 0.1
-  m_ActionsAsset: {fileID: -944628639613478452, guid: ea88d34a91c6ba52aa2ac42978b8083e,
-    type: 3}
-  m_PointAction: {fileID: 1054132383583890850, guid: ea88d34a91c6ba52aa2ac42978b8083e,
-    type: 3}
-  m_MoveAction: {fileID: 3710738434707379630, guid: ea88d34a91c6ba52aa2ac42978b8083e,
-    type: 3}
-  m_SubmitAction: {fileID: 2064916234097673511, guid: ea88d34a91c6ba52aa2ac42978b8083e,
-    type: 3}
-  m_CancelAction: {fileID: -1967631576421560919, guid: ea88d34a91c6ba52aa2ac42978b8083e,
-    type: 3}
-  m_LeftClickAction: {fileID: 0}
-  m_MiddleClickAction: {fileID: 0}
-  m_RightClickAction: {fileID: 0}
-  m_ScrollWheelAction: {fileID: 0}
-  m_TrackedDevicePositionAction: {fileID: 0}
-  m_TrackedDeviceOrientationAction: {fileID: 0}
-  m_TrackedDeviceSelectAction: {fileID: 0}
---- !u!114 &1763169466
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1763169464}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_FirstSelected: {fileID: 0}
-  m_sendNavigationEvents: 1
-  m_DragThreshold: 10
 --- !u!4 &1763169467
 Transform:
   m_ObjectHideFlags: 0
@@ -1342,7 +1293,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 621567455fd1c4ceb811cc8a00b6a1a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_NotificationBehavior: 0
+  m_NotificationBehavior: 3
   m_MaxPlayerCount: 4
   m_AllowJoining: 1
   m_JoinBehavior: 0
@@ -1394,32 +1345,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: d20a26b8634ce200aad8c0eba356df7c, type: 2}
   - {fileID: 11400000, guid: ddec981bd4d7dad3eae2b5d0b8662398, type: 2}
   NPCStatsReference: {fileID: 11400000, guid: 403e3afa077b2f403b442647c8511202, type: 2}
---- !u!114 &1763169471
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1763169464}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1f5d2a6f7b8c5cddab707a5bd0db111d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PlayerObjectPrefab: {fileID: 3869385205771604077, guid: 7a806e49e84632a09bea4ba01e07a870,
-    type: 3}
-  PlayerPointerPrefab: {fileID: 7554150966768453922, guid: 34558619191412ebc9475266f9094e11,
-    type: 3}
-  PlayerScreenPrefab: {fileID: 5533543821138938941, guid: 7c1a153ff95986d338406acd33e72e1a,
-    type: 3}
-  PlayerPanel: {fileID: 255933536}
-  NPCPanel: {fileID: 1836875880}
-  PlayerDataAssets:
-  - {fileID: 11400000, guid: 582a80a3d21b92931b9ef80f9fde4880, type: 2}
-  - {fileID: 11400000, guid: a27fdd8f81c4f809a98e426d17dcb292, type: 2}
-  - {fileID: 11400000, guid: 41ba023590d96e2bcb78a90638891df8, type: 2}
-  - {fileID: 11400000, guid: 59d80ed5b5ddc7972966246257e7d28c, type: 2}
-  PlayerDataAsset: {fileID: 0}
 --- !u!224 &1809642212 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6272937051345133613, guid: fcadad0215c5a3d55a19cebdb5ccde62,
@@ -1447,7 +1372,7 @@ GameObject:
   - component: {fileID: 1836875887}
   m_Layer: 5
   m_Name: NPCPanel
-  m_TagString: Untagged
+  m_TagString: NPCPanel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
