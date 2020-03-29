@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerScreen : MonoBehaviour
 {
+    public PlayerData PlayerData;
+
     public Meter RedMeter;
     public Meter BlueMeter;
 

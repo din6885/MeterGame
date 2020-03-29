@@ -18,47 +18,46 @@ public class PlayerComponent : MonoBehaviour
 
     private GameObject NPCPanel;
 
-    public PlayerData[] PlayerDataAssets;
+    public PlayerDataList PlayerDataList;
 
     private PlayerData PlayerData;
 
-    public GameObject Pointer;
+    public GameObject PointerObject;
 
-    private PlayerPointer PlayerPointerComponent;
+    public GameObject PlayerScreenObject;
 
-    private GameObject PlayerScreen;
+  private void OnEnable() 
+    {
 
-    private GameObject PlayerSkillScreen;
-
-    //OnPointAction
-    public GameObject Selection;
-
-    private void OnEnable() {
         PlayerPanel = GameObject.FindWithTag("PlayerPanel");
         NPCPanel = GameObject.FindWithTag("NPCPanel");
         OnPlayerJoined();
     }
 
+
     public void OnPlayerJoined()
     {
 
-        PlayerScreen = Instantiate(PlayerScreenPrefab, PlayerPanel.transform);
-        PlayerSkillScreen = Instantiate(PlayerSkillScreenPrefab, PlayerScreen.transform);
-        Pointer = Instantiate(PlayerPointerPrefab, NPCPanel.transform);
-        PlayerPointerComponent = Pointer.GetComponent<PlayerPointer>();
+        PlayerScreenObject = Instantiate(PlayerScreenPrefab, PlayerPanel.transform);
+        PlayerScreen playerScreen = PlayerScreenObject.GetComponent<PlayerScreen>();
+        PointerObject = Instantiate(PlayerPointerPrefab, NPCPanel.transform);
+        PlayerPointer playerPointerComponent = PointerObject.GetComponent<PlayerPointer>();
+        
 
-        for (int i = 0; i < PlayerDataAssets.Length;)
+        for (int i = 0; i < PlayerDataList.playerDatas.Count;)
         {
-            if (PlayerDataAssets[i].PlayerObject != null)
+            if (PlayerDataList.playerDatas[i].PlayerObject != null)
             {
                 i++;
 
             }
             else
             {
-                PlayerDataAssets[i].PlayerObject = gameObject;
-                PlayerData = PlayerDataAssets[i];
+                PlayerDataList.playerDatas[i].PlayerObject = gameObject;
+                PlayerData = PlayerDataList.playerDatas[i];
                 PlayerData.InitAsset();
+                playerPointerComponent.PlayerData = this.PlayerData;
+                playerScreen.PlayerData = this.PlayerData;
                 return;
             } 
 
@@ -67,32 +66,6 @@ public class PlayerComponent : MonoBehaviour
     }
 
 
-    public void OnPoint(InputValue value)
-    {
-        Selection = PlayerPointerComponent.PlayerPointerSelection(value);
-
-    }
-
-    public void OnCross()
-    {
-        if (Selection != null)
-        {
-            if (Selection.activeInHierarchy)
-            {
-                Selection.GetComponent<NPC>().OnMinus(10.0f);
-            }
-
-        }
-    }
-
-    public void OnSquare()
-    {
-        //PlayerMeter.transform.Find("RedMeter").GetComponent<Meter>().PlusMeter(10.0f);
-    }
-
-    public void OnCircle()
-    {
-
-    }
+    
 
 }

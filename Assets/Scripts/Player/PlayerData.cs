@@ -18,6 +18,10 @@ public class PlayerData : ScriptableObject
     public PlayerDataAction Triangle;
 
     public Color color;
+
+    public float redMeterValue;
+
+    public float blueMeterValue;
    
 
     public void InitAsset()
@@ -26,5 +30,8 @@ public class PlayerData : ScriptableObject
         Plus.Value = 10.0f;
         Circle.Value = 10.0f;
         Triangle.Value = 10.0f;
+
+        redMeterValue = 100.0f;
+        blueMeterValue = 100.0f;
     }
 }

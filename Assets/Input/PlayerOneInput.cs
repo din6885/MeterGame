@@ -15,7 +15,7 @@ public class @PlayerOneInput : IInputActionCollection, IDisposable
     ""name"": ""PlayerOne"",
     ""maps"": [
         {
-            ""name"": ""UI"",
+            ""name"": ""PlayerControl"",
             ""id"": ""a35ca842-2196-4b83-9b1b-f380bdd90cf9"",
             ""actions"": [
                 {
@@ -81,61 +81,6 @@ public class @PlayerOneInput : IInputActionCollection, IDisposable
                 },
                 {
                     ""name"": ""2D Vector"",
-                    ""id"": ""6669acae-b2d3-4ed3-95ce-1b754b8dcbf6"",
-                    ""path"": ""2DVector"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Navigate"",
-                    ""isComposite"": true,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": ""up"",
-                    ""id"": ""eb653e0b-71ff-417c-beaa-22f044096155"",
-                    ""path"": ""<Keyboard>/i"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Keyboard&Mouse"",
-                    ""action"": ""Navigate"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""down"",
-                    ""id"": ""57aae440-79fa-4002-bddd-a75e7135f3c2"",
-                    ""path"": ""<Keyboard>/k"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Keyboard&Mouse"",
-                    ""action"": ""Navigate"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""left"",
-                    ""id"": ""2da70704-3d25-424b-a3d5-bb377182b67b"",
-                    ""path"": ""<Keyboard>/j"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Keyboard&Mouse"",
-                    ""action"": ""Navigate"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""right"",
-                    ""id"": ""b3d588d4-4800-407b-88da-54d038ca020c"",
-                    ""path"": ""<Keyboard>/l"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Navigate"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""2D Vector"",
                     ""id"": ""6db0ee41-7bf0-46a7-99b8-5f6946795cd1"",
                     ""path"": ""2DVector"",
                     ""interactions"": """",
@@ -148,7 +93,7 @@ public class @PlayerOneInput : IInputActionCollection, IDisposable
                 {
                     ""name"": ""up"",
                     ""id"": ""2272a229-9b46-45dd-97a9-23bbf0a77e40"",
-                    ""path"": ""<Keyboard>/upArrow"",
+                    ""path"": ""<Keyboard>/i"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Keyboard&Mouse"",
@@ -159,7 +104,7 @@ public class @PlayerOneInput : IInputActionCollection, IDisposable
                 {
                     ""name"": ""down"",
                     ""id"": ""3f583389-0285-4ca9-8a32-763779688cf8"",
-                    ""path"": ""<Keyboard>/downArrow"",
+                    ""path"": ""<Keyboard>/k"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Keyboard&Mouse"",
@@ -170,7 +115,7 @@ public class @PlayerOneInput : IInputActionCollection, IDisposable
                 {
                     ""name"": ""left"",
                     ""id"": ""7ca18348-2ae4-412e-bdd1-91cd9e0cf93f"",
-                    ""path"": ""<Keyboard>/leftArrow"",
+                    ""path"": ""<Keyboard>/j"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Keyboard&Mouse"",
@@ -181,7 +126,7 @@ public class @PlayerOneInput : IInputActionCollection, IDisposable
                 {
                     ""name"": ""right"",
                     ""id"": ""184f0198-76f1-47b3-ac23-e8fe6db47d38"",
-                    ""path"": ""<Keyboard>/rightArrow"",
+                    ""path"": ""<Keyboard>/l"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Keyboard&Mouse"",
@@ -354,14 +299,14 @@ public class @PlayerOneInput : IInputActionCollection, IDisposable
         }
     ]
 }");
-        // UI
-        m_UI = asset.FindActionMap("UI", throwIfNotFound: true);
-        m_UI_Navigate = m_UI.FindAction("Navigate", throwIfNotFound: true);
-        m_UI_Point = m_UI.FindAction("Point", throwIfNotFound: true);
-        m_UI_Cross = m_UI.FindAction("Cross", throwIfNotFound: true);
-        m_UI_Square = m_UI.FindAction("Square", throwIfNotFound: true);
-        m_UI_Triangle = m_UI.FindAction("Triangle", throwIfNotFound: true);
-        m_UI_Circle = m_UI.FindAction("Circle", throwIfNotFound: true);
+        // PlayerControl
+        m_PlayerControl = asset.FindActionMap("PlayerControl", throwIfNotFound: true);
+        m_PlayerControl_Navigate = m_PlayerControl.FindAction("Navigate", throwIfNotFound: true);
+        m_PlayerControl_Point = m_PlayerControl.FindAction("Point", throwIfNotFound: true);
+        m_PlayerControl_Cross = m_PlayerControl.FindAction("Cross", throwIfNotFound: true);
+        m_PlayerControl_Square = m_PlayerControl.FindAction("Square", throwIfNotFound: true);
+        m_PlayerControl_Triangle = m_PlayerControl.FindAction("Triangle", throwIfNotFound: true);
+        m_PlayerControl_Circle = m_PlayerControl.FindAction("Circle", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -408,54 +353,54 @@ public class @PlayerOneInput : IInputActionCollection, IDisposable
         asset.Disable();
     }
 
-    // UI
-    private readonly InputActionMap m_UI;
-    private IUIActions m_UIActionsCallbackInterface;
-    private readonly InputAction m_UI_Navigate;
-    private readonly InputAction m_UI_Point;
-    private readonly InputAction m_UI_Cross;
-    private readonly InputAction m_UI_Square;
-    private readonly InputAction m_UI_Triangle;
-    private readonly InputAction m_UI_Circle;
-    public struct UIActions
+    // PlayerControl
+    private readonly InputActionMap m_PlayerControl;
+    private IPlayerControlActions m_PlayerControlActionsCallbackInterface;
+    private readonly InputAction m_PlayerControl_Navigate;
+    private readonly InputAction m_PlayerControl_Point;
+    private readonly InputAction m_PlayerControl_Cross;
+    private readonly InputAction m_PlayerControl_Square;
+    private readonly InputAction m_PlayerControl_Triangle;
+    private readonly InputAction m_PlayerControl_Circle;
+    public struct PlayerControlActions
     {
         private @PlayerOneInput m_Wrapper;
-        public UIActions(@PlayerOneInput wrapper) { m_Wrapper = wrapper; }
-        public InputAction @Navigate => m_Wrapper.m_UI_Navigate;
-        public InputAction @Point => m_Wrapper.m_UI_Point;
-        public InputAction @Cross => m_Wrapper.m_UI_Cross;
-        public InputAction @Square => m_Wrapper.m_UI_Square;
-        public InputAction @Triangle => m_Wrapper.m_UI_Triangle;
-        public InputAction @Circle => m_Wrapper.m_UI_Circle;
-        public InputActionMap Get() { return m_Wrapper.m_UI; }
+        public PlayerControlActions(@PlayerOneInput wrapper) { m_Wrapper = wrapper; }
+        public InputAction @Navigate => m_Wrapper.m_PlayerControl_Navigate;
+        public InputAction @Point => m_Wrapper.m_PlayerControl_Point;
+        public InputAction @Cross => m_Wrapper.m_PlayerControl_Cross;
+        public InputAction @Square => m_Wrapper.m_PlayerControl_Square;
+        public InputAction @Triangle => m_Wrapper.m_PlayerControl_Triangle;
+        public InputAction @Circle => m_Wrapper.m_PlayerControl_Circle;
+        public InputActionMap Get() { return m_Wrapper.m_PlayerControl; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
         public bool enabled => Get().enabled;
-        public static implicit operator InputActionMap(UIActions set) { return set.Get(); }
-        public void SetCallbacks(IUIActions instance)
+        public static implicit operator InputActionMap(PlayerControlActions set) { return set.Get(); }
+        public void SetCallbacks(IPlayerControlActions instance)
         {
-            if (m_Wrapper.m_UIActionsCallbackInterface != null)
+            if (m_Wrapper.m_PlayerControlActionsCallbackInterface != null)
             {
-                @Navigate.started -= m_Wrapper.m_UIActionsCallbackInterface.OnNavigate;
-                @Navigate.performed -= m_Wrapper.m_UIActionsCallbackInterface.OnNavigate;
-                @Navigate.canceled -= m_Wrapper.m_UIActionsCallbackInterface.OnNavigate;
-                @Point.started -= m_Wrapper.m_UIActionsCallbackInterface.OnPoint;
-                @Point.performed -= m_Wrapper.m_UIActionsCallbackInterface.OnPoint;
-                @Point.canceled -= m_Wrapper.m_UIActionsCallbackInterface.OnPoint;
-                @Cross.started -= m_Wrapper.m_UIActionsCallbackInterface.OnCross;
-                @Cross.performed -= m_Wrapper.m_UIActionsCallbackInterface.OnCross;
-                @Cross.canceled -= m_Wrapper.m_UIActionsCallbackInterface.OnCross;
-                @Square.started -= m_Wrapper.m_UIActionsCallbackInterface.OnSquare;
-                @Square.performed -= m_Wrapper.m_UIActionsCallbackInterface.OnSquare;
-                @Square.canceled -= m_Wrapper.m_UIActionsCallbackInterface.OnSquare;
-                @Triangle.started -= m_Wrapper.m_UIActionsCallbackInterface.OnTriangle;
-                @Triangle.performed -= m_Wrapper.m_UIActionsCallbackInterface.OnTriangle;
-                @Triangle.canceled -= m_Wrapper.m_UIActionsCallbackInterface.OnTriangle;
-                @Circle.started -= m_Wrapper.m_UIActionsCallbackInterface.OnCircle;
-                @Circle.performed -= m_Wrapper.m_UIActionsCallbackInterface.OnCircle;
-                @Circle.canceled -= m_Wrapper.m_UIActionsCallbackInterface.OnCircle;
+                @Navigate.started -= m_Wrapper.m_PlayerControlActionsCallbackInterface.OnNavigate;
+                @Navigate.performed -= m_Wrapper.m_PlayerControlActionsCallbackInterface.OnNavigate;
+                @Navigate.canceled -= m_Wrapper.m_PlayerControlActionsCallbackInterface.OnNavigate;
+                @Point.started -= m_Wrapper.m_PlayerControlActionsCallbackInterface.OnPoint;
+                @Point.performed -= m_Wrapper.m_PlayerControlActionsCallbackInterface.OnPoint;
+                @Point.canceled -= m_Wrapper.m_PlayerControlActionsCallbackInterface.OnPoint;
+                @Cross.started -= m_Wrapper.m_PlayerControlActionsCallbackInterface.OnCross;
+                @Cross.performed -= m_Wrapper.m_PlayerControlActionsCallbackInterface.OnCross;
+                @Cross.canceled -= m_Wrapper.m_PlayerControlActionsCallbackInterface.OnCross;
+                @Square.started -= m_Wrapper.m_PlayerControlActionsCallbackInterface.OnSquare;
+                @Square.performed -= m_Wrapper.m_PlayerControlActionsCallbackInterface.OnSquare;
+                @Square.canceled -= m_Wrapper.m_PlayerControlActionsCallbackInterface.OnSquare;
+                @Triangle.started -= m_Wrapper.m_PlayerControlActionsCallbackInterface.OnTriangle;
+                @Triangle.performed -= m_Wrapper.m_PlayerControlActionsCallbackInterface.OnTriangle;
+                @Triangle.canceled -= m_Wrapper.m_PlayerControlActionsCallbackInterface.OnTriangle;
+                @Circle.started -= m_Wrapper.m_PlayerControlActionsCallbackInterface.OnCircle;
+                @Circle.performed -= m_Wrapper.m_PlayerControlActionsCallbackInterface.OnCircle;
+                @Circle.canceled -= m_Wrapper.m_PlayerControlActionsCallbackInterface.OnCircle;
             }
-            m_Wrapper.m_UIActionsCallbackInterface = instance;
+            m_Wrapper.m_PlayerControlActionsCallbackInterface = instance;
             if (instance != null)
             {
                 @Navigate.started += instance.OnNavigate;
@@ -479,7 +424,7 @@ public class @PlayerOneInput : IInputActionCollection, IDisposable
             }
         }
     }
-    public UIActions @UI => new UIActions(this);
+    public PlayerControlActions @PlayerControl => new PlayerControlActions(this);
     private int m_KeyboardMouseSchemeIndex = -1;
     public InputControlScheme KeyboardMouseScheme
     {
@@ -525,7 +470,7 @@ public class @PlayerOneInput : IInputActionCollection, IDisposable
             return asset.controlSchemes[m_XRSchemeIndex];
         }
     }
-    public interface IUIActions
+    public interface IPlayerControlActions
     {
         void OnNavigate(InputAction.CallbackContext context);
         void OnPoint(InputAction.CallbackContext context);
