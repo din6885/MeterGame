@@ -22,6 +22,8 @@ public class PlayerData : ScriptableObject
     public float redMeterValue;
 
     public float blueMeterValue;
+
+    public int freePoints;
    
 
     public void InitAsset()

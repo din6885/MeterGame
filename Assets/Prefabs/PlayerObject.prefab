@@ -97,7 +97,7 @@ MonoBehaviour:
     m_ActionName: UI/Circle
   m_NeverAutoSwitchControlSchemes: 1
   m_DefaultControlScheme: 
-  m_DefaultActionMap: UI
+  m_DefaultActionMap: 
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
 --- !u!114 &922259038663687068
@@ -118,8 +118,6 @@ MonoBehaviour:
     type: 3}
   PlayerSkillScreenPrefab: {fileID: 7804951562831098424, guid: a5d377be6f4a02a2d9da83d7c3d95e80,
     type: 3}
-  PInput: {fileID: 0}
   PlayerDataList: {fileID: 11400000, guid: d41bfae111e6fcf4d8cc6aa22165abfe, type: 2}
-  Pointer: {fileID: 0}
-  PlayerScreen: {fileID: 0}
-  Selection: {fileID: 0}
+  PointerObject: {fileID: 0}
+  PlayerScreenObject: {fileID: 0}

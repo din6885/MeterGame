@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311992, g: 0.38074034, b: 0.35872713, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311926, g: 0.38074008, b: 0.35872707, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -96,6 +96,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
   m_UseShadowmask: 1
 --- !u!196 &4
@@ -258,6 +259,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -937,6 +939,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1160,6 +1163,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1183,7 +1187,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 12c9e4d918b5226f8b273345b851f469, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1240,7 +1244,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 1.5, y: 0}
   m_SizeDelta: {x: 33, y: 2}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!224 &1676304509 stripped
@@ -1371,7 +1375,7 @@ GameObject:
   - component: {fileID: 1836875886}
   - component: {fileID: 1836875887}
   m_Layer: 5
-  m_Name: NPCPanel
+  m_Name: NPCManager
   m_TagString: NPCPanel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1510,6 +1514,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1836875881}
     m_Modifications:
+    - target: {fileID: 796115618, guid: fcadad0215c5a3d55a19cebdb5ccde62, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2999616603161228712, guid: fcadad0215c5a3d55a19cebdb5ccde62,
         type: 3}
       propertyPath: m_Name
@@ -1625,10 +1633,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 796115618, guid: fcadad0215c5a3d55a19cebdb5ccde62, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fcadad0215c5a3d55a19cebdb5ccde62, type: 3}
 --- !u!1 &1906963898
@@ -1685,7 +1689,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Current:
     UseConstant: 1
-    ConstantValue: 0
+    ConstantValue: 0.9
     Variable: {fileID: 0}
   Max:
     UseConstant: 1
@@ -1696,6 +1700,7 @@ MonoBehaviour:
     UseConstant: 0
     ConstantValue: 0
     Variable: {fileID: 11400000, guid: e0b0d0a32fcea921aabcde0546153477, type: 2}
+  LevelUpEvent: {fileID: 11400000, guid: 0b281edba94f8c35cb5dfee511bf62c0, type: 2}
 --- !u!114 &1906963903
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1773,6 +1778,7 @@ SpriteMask:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:

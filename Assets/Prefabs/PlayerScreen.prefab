@@ -439,7 +439,6 @@ GameObject:
   - component: {fileID: 5533543821138938938}
   - component: {fileID: 5267499652391633014}
   - component: {fileID: 7179733110138667080}
-  - component: {fileID: 7828073385528138357}
   m_Layer: 5
   m_Name: PlayerScreen
   m_TagString: Untagged
@@ -515,33 +514,6 @@ MonoBehaviour:
   RedMeter: {fileID: 5838874889889931698}
   BlueMeter: {fileID: 5288359130039856685}
   skillScreen: {fileID: 2488557704189002714}
---- !u!114 &7828073385528138357
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5533543821138938941}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ab27661be0686f91bb0a3bbbbde7290, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event: {fileID: 11400000, guid: 15d55de885c3907b498d0a1e31411674, type: 2}
-  Response:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1001 &2096532694977437277
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -52,6 +52,14 @@
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": ""
+                },
+                {
+                    "name": "Skills",
+                    "type": "Value",
+                    "id": "fbf59331-ca87-4c03-9eeb-e2d514e7b2ea",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
                 }
             ],
             "bindings": [
@@ -217,6 +225,44 @@
                     "processors": "",
                     "groups": "Keyboard&Mouse",
                     "action": "Circle",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f76f70b9-1c68-49ef-b18b-778621fb6f1e",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Skills",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "UI",
+            "id": "bf8180cd-e1e5-4997-8505-5883f8878ec0",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "79472485-7202-4cdf-906b-05dcf46473c1",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "94f9bf8f-db9f-49d0-b763-fe641f9d9db2",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

@@ -21,7 +21,7 @@ public class PlayerPointer : MonoBehaviour
     {
         InputAction = new PlayerOneInput();
         InputAction.PlayerControl.Point.performed += ctx => OnPoint(ctx.ReadValue<Vector2>());
-        InputAction.PlayerControl.Cross.performed += ctx => OnCross();
+        InputAction.PlayerControl.Cross.performed += ctx => OnMinus();
 
         if (Panel == null)
         {
@@ -58,13 +58,14 @@ public class PlayerPointer : MonoBehaviour
 
     }
 
-    public void OnCross()
+    public void OnMinus()
     {
         if (Selection != null)
         {
             if (Selection.activeInHierarchy)
             {
                 Selection.GetComponent<NPC>().OnMinus(PlayerData.Minus.Value);
+                PlayerData.Minus.LevelProgress += 0.1f;
             }
 
         }

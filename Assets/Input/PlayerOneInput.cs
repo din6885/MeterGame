@@ -65,6 +65,14 @@ public class @PlayerOneInput : IInputActionCollection, IDisposable
                     ""expectedControlType"": """",
                     ""processors"": """",
                     ""interactions"": """"
+                },
+                {
+                    ""name"": ""Skills"",
+                    ""type"": ""Value"",
+                    ""id"": ""fbf59331-ca87-4c03-9eeb-e2d514e7b2ea"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
@@ -232,6 +240,44 @@ public class @PlayerOneInput : IInputActionCollection, IDisposable
                     ""action"": ""Circle"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""f76f70b9-1c68-49ef-b18b-778621fb6f1e"",
+                    ""path"": ""<Keyboard>/space"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Skills"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                }
+            ]
+        },
+        {
+            ""name"": ""UI"",
+            ""id"": ""bf8180cd-e1e5-4997-8505-5883f8878ec0"",
+            ""actions"": [
+                {
+                    ""name"": ""New action"",
+                    ""type"": ""Button"",
+                    ""id"": ""79472485-7202-4cdf-906b-05dcf46473c1"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """"
+                }
+            ],
+            ""bindings"": [
+                {
+                    ""name"": """",
+                    ""id"": ""94f9bf8f-db9f-49d0-b763-fe641f9d9db2"",
+                    ""path"": """",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""New action"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -307,6 +353,10 @@ public class @PlayerOneInput : IInputActionCollection, IDisposable
         m_PlayerControl_Square = m_PlayerControl.FindAction("Square", throwIfNotFound: true);
         m_PlayerControl_Triangle = m_PlayerControl.FindAction("Triangle", throwIfNotFound: true);
         m_PlayerControl_Circle = m_PlayerControl.FindAction("Circle", throwIfNotFound: true);
+        m_PlayerControl_Skills = m_PlayerControl.FindAction("Skills", throwIfNotFound: true);
+        // UI
+        m_UI = asset.FindActionMap("UI", throwIfNotFound: true);
+        m_UI_Newaction = m_UI.FindAction("New action", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -362,6 +412,7 @@ public class @PlayerOneInput : IInputActionCollection, IDisposable
     private readonly InputAction m_PlayerControl_Square;
     private readonly InputAction m_PlayerControl_Triangle;
     private readonly InputAction m_PlayerControl_Circle;
+    private readonly InputAction m_PlayerControl_Skills;
     public struct PlayerControlActions
     {
         private @PlayerOneInput m_Wrapper;
@@ -372,6 +423,7 @@ public class @PlayerOneInput : IInputActionCollection, IDisposable
         public InputAction @Square => m_Wrapper.m_PlayerControl_Square;
         public InputAction @Triangle => m_Wrapper.m_PlayerControl_Triangle;
         public InputAction @Circle => m_Wrapper.m_PlayerControl_Circle;
+        public InputAction @Skills => m_Wrapper.m_PlayerControl_Skills;
         public InputActionMap Get() { return m_Wrapper.m_PlayerControl; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -399,6 +451,9 @@ public class @PlayerOneInput : IInputActionCollection, IDisposable
                 @Circle.started -= m_Wrapper.m_PlayerControlActionsCallbackInterface.OnCircle;
                 @Circle.performed -= m_Wrapper.m_PlayerControlActionsCallbackInterface.OnCircle;
                 @Circle.canceled -= m_Wrapper.m_PlayerControlActionsCallbackInterface.OnCircle;
+                @Skills.started -= m_Wrapper.m_PlayerControlActionsCallbackInterface.OnSkills;
+                @Skills.performed -= m_Wrapper.m_PlayerControlActionsCallbackInterface.OnSkills;
+                @Skills.canceled -= m_Wrapper.m_PlayerControlActionsCallbackInterface.OnSkills;
             }
             m_Wrapper.m_PlayerControlActionsCallbackInterface = instance;
             if (instance != null)
@@ -421,10 +476,46 @@ public class @PlayerOneInput : IInputActionCollection, IDisposable
                 @Circle.started += instance.OnCircle;
                 @Circle.performed += instance.OnCircle;
                 @Circle.canceled += instance.OnCircle;
+                @Skills.started += instance.OnSkills;
+                @Skills.performed += instance.OnSkills;
+                @Skills.canceled += instance.OnSkills;
             }
         }
     }
     public PlayerControlActions @PlayerControl => new PlayerControlActions(this);
+
+    // UI
+    private readonly InputActionMap m_UI;
+    private IUIActions m_UIActionsCallbackInterface;
+    private readonly InputAction m_UI_Newaction;
+    public struct UIActions
+    {
+        private @PlayerOneInput m_Wrapper;
+        public UIActions(@PlayerOneInput wrapper) { m_Wrapper = wrapper; }
+        public InputAction @Newaction => m_Wrapper.m_UI_Newaction;
+        public InputActionMap Get() { return m_Wrapper.m_UI; }
+        public void Enable() { Get().Enable(); }
+        public void Disable() { Get().Disable(); }
+        public bool enabled => Get().enabled;
+        public static implicit operator InputActionMap(UIActions set) { return set.Get(); }
+        public void SetCallbacks(IUIActions instance)
+        {
+            if (m_Wrapper.m_UIActionsCallbackInterface != null)
+            {
+                @Newaction.started -= m_Wrapper.m_UIActionsCallbackInterface.OnNewaction;
+                @Newaction.performed -= m_Wrapper.m_UIActionsCallbackInterface.OnNewaction;
+                @Newaction.canceled -= m_Wrapper.m_UIActionsCallbackInterface.OnNewaction;
+            }
+            m_Wrapper.m_UIActionsCallbackInterface = instance;
+            if (instance != null)
+            {
+                @Newaction.started += instance.OnNewaction;
+                @Newaction.performed += instance.OnNewaction;
+                @Newaction.canceled += instance.OnNewaction;
+            }
+        }
+    }
+    public UIActions @UI => new UIActions(this);
     private int m_KeyboardMouseSchemeIndex = -1;
     public InputControlScheme KeyboardMouseScheme
     {
@@ -478,5 +569,10 @@ public class @PlayerOneInput : IInputActionCollection, IDisposable
         void OnSquare(InputAction.CallbackContext context);
         void OnTriangle(InputAction.CallbackContext context);
         void OnCircle(InputAction.CallbackContext context);
+        void OnSkills(InputAction.CallbackContext context);
+    }
+    public interface IUIActions
+    {
+        void OnNewaction(InputAction.CallbackContext context);
     }
 }

@@ -13,27 +13,27 @@ MonoBehaviour:
   m_Name: PlayerDataTwo
   m_EditorClassIdentifier: 
   PlayerObject: {fileID: 0}
-  PlayerComponent: {fileID: 0}
-  RedMeter: {fileID: 0}
-  BlueMeter: {fileID: 0}
   Level:
-    UseConstant: 1
+    UseConstant: 0
     ConstantValue: 0
-    Variable: {fileID: 0}
+    Variable: {fileID: 11400000, guid: e0b0d0a32fcea921aabcde0546153477, type: 2}
   Minus:
-    Value: 0
+    Value: 10
     Level: 0
     LevelProgress: 0
   Plus:
-    Value: 0
+    Value: 10
     Level: 0
     LevelProgress: 0
   Circle:
-    Value: 0
+    Value: 10
     Level: 0
     LevelProgress: 0
   Triangle:
-    Value: 0
+    Value: 10
     Level: 0
     LevelProgress: 0
   color: {r: 1, g: 0, b: 0, a: 1}
+  redMeterValue: 100
+  blueMeterValue: 100
+  freePoints: 0
