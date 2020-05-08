@@ -28,12 +28,14 @@ public class PlayerData : ScriptableObject
 
     public void InitAsset()
     {
-        Minus.Value = 10.0f;
-        Plus.Value = 10.0f;
-        Circle.Value = 10.0f;
-        Triangle.Value = 10.0f;
+        Minus.value = 10.0f;
+        Plus.value = 10.0f;
+        Circle.value = 10.0f;
+        Triangle.value = 10.0f;
 
         redMeterValue = 100.0f;
         blueMeterValue = 100.0f;
     }
+
+    
 }

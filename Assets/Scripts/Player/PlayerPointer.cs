@@ -65,7 +65,7 @@ public class PlayerPointer : MonoBehaviour
             if (Selection.activeInHierarchy)
             {
                 Selection.GetComponent<NPC>().OnMinus(PlayerData.Minus.Value);
-                PlayerData.Minus.LevelProgress += 0.1f;
+                PlayerData.Minus.Progress(0.1f);
             }
 
         }

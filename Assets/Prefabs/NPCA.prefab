@@ -52,7 +52,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 1.75, y: -1.5}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -186,11 +186,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6272937051345133613}
     m_Modifications:
-    - target: {fileID: 1687330259747464865, guid: 34af764f73af46b82ba7581ffd89a3f1,
-        type: 3}
-      propertyPath: m_MaskInteraction
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2629049408974660912, guid: 34af764f73af46b82ba7581ffd89a3f1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -254,12 +249,12 @@ PrefabInstance:
     - target: {fileID: 2629049408974660912, guid: 34af764f73af46b82ba7581ffd89a3f1,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2629049408974660912, guid: 34af764f73af46b82ba7581ffd89a3f1,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2629049408974660912, guid: 34af764f73af46b82ba7581ffd89a3f1,
         type: 3}
@@ -269,7 +264,7 @@ PrefabInstance:
     - target: {fileID: 2629049408974660912, guid: 34af764f73af46b82ba7581ffd89a3f1,
         type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 2629049408974660912, guid: 34af764f73af46b82ba7581ffd89a3f1,
         type: 3}
@@ -279,7 +274,7 @@ PrefabInstance:
     - target: {fileID: 2629049408974660912, guid: 34af764f73af46b82ba7581ffd89a3f1,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 2629049408974660912, guid: 34af764f73af46b82ba7581ffd89a3f1,
         type: 3}
@@ -294,52 +289,12 @@ PrefabInstance:
     - target: {fileID: 2629049408974660912, guid: 34af764f73af46b82ba7581ffd89a3f1,
         type: 3}
       propertyPath: m_Pivot.y
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2629049408974660913, guid: 34af764f73af46b82ba7581ffd89a3f1,
         type: 3}
       propertyPath: m_Name
       value: Red Meter
-      objectReference: {fileID: 0}
-    - target: {fileID: 4045687218584844786, guid: 34af764f73af46b82ba7581ffd89a3f1,
-        type: 3}
-      propertyPath: m_MaskInteraction
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4932945548703256571, guid: 34af764f73af46b82ba7581ffd89a3f1,
-        type: 3}
-      propertyPath: m_Size.x
-      value: 1.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 7974604772814822507, guid: 34af764f73af46b82ba7581ffd89a3f1,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7974604772814822507, guid: 34af764f73af46b82ba7581ffd89a3f1,
-        type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7974604772814822507, guid: 34af764f73af46b82ba7581ffd89a3f1,
-        type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7974604772814822507, guid: 34af764f73af46b82ba7581ffd89a3f1,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0.25
-      objectReference: {fileID: 0}
-    - target: {fileID: 7974604772814822507, guid: 34af764f73af46b82ba7581ffd89a3f1,
-        type: 3}
-      propertyPath: m_Pivot.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8475269746574285334, guid: 34af764f73af46b82ba7581ffd89a3f1,
-        type: 3}
-      propertyPath: m_MaskInteraction
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34af764f73af46b82ba7581ffd89a3f1, type: 3}

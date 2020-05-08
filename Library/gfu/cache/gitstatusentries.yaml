@@ -13,54 +13,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-04-20T20:06:31.608+02:00
-  initializedAtString: 2020-04-20T20:06:31.608+02:00
+  lastUpdatedAtString: 2020-05-03T08:14:37.284+02:00
+  initializedAtString: 2020-05-03T07:14:42.765+02:00
   entries:
-  - path: Assembly-CSharp.csproj
-    fullPath: C:\Users\Rakowski\source\repos\din6885\MeterGame\Assembly-CSharp.csproj
-    projectPath: Assembly-CSharp.csproj
+  - path: Assets\Prefabs\Blue Meter Variant.prefab
+    fullPath: C:\Users\Rakowski\source\repos\din6885\MeterGame\Assets\Prefabs\Blue
+      Meter Variant.prefab
+    projectPath: Assets\Prefabs\Blue Meter Variant.prefab
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Input\PlayerOne.inputactions
-    fullPath: C:\Users\Rakowski\source\repos\din6885\MeterGame\Assets\Input\PlayerOne.inputactions
-    projectPath: Assets\Input\PlayerOne.inputactions
+  - path: Assets\Prefabs\Meter.prefab
+    fullPath: C:\Users\Rakowski\source\repos\din6885\MeterGame\Assets\Prefabs\Meter.prefab
+    projectPath: Assets\Prefabs\Meter.prefab
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Input\PlayerOneInput.cs
-    fullPath: C:\Users\Rakowski\source\repos\din6885\MeterGame\Assets\Input\PlayerOneInput.cs
-    projectPath: Assets\Input\PlayerOneInput.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Objects\Player\PlayerDataFour.asset
-    fullPath: C:\Users\Rakowski\source\repos\din6885\MeterGame\Assets\Objects\Player\PlayerDataFour.asset
-    projectPath: Assets\Objects\Player\PlayerDataFour.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Objects\Player\PlayerDataOne.asset
-    fullPath: C:\Users\Rakowski\source\repos\din6885\MeterGame\Assets\Objects\Player\PlayerDataOne.asset
-    projectPath: Assets\Objects\Player\PlayerDataOne.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Objects\Player\PlayerDataThree.asset
-    fullPath: C:\Users\Rakowski\source\repos\din6885\MeterGame\Assets\Objects\Player\PlayerDataThree.asset
-    projectPath: Assets\Objects\Player\PlayerDataThree.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Objects\Player\PlayerDataTwo.asset
-    fullPath: C:\Users\Rakowski\source\repos\din6885\MeterGame\Assets\Objects\Player\PlayerDataTwo.asset
-    projectPath: Assets\Objects\Player\PlayerDataTwo.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Prefabs\PlayerObject.prefab
-    fullPath: C:\Users\Rakowski\source\repos\din6885\MeterGame\Assets\Prefabs\PlayerObject.prefab
-    projectPath: Assets\Prefabs\PlayerObject.prefab
+  - path: Assets\Prefabs\NPCA.prefab
+    fullPath: C:\Users\Rakowski\source\repos\din6885\MeterGame\Assets\Prefabs\NPCA.prefab
+    projectPath: Assets\Prefabs\NPCA.prefab
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -70,81 +41,22 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Assets\Prefabs\Red Meter Variant.prefab
+    fullPath: C:\Users\Rakowski\source\repos\din6885\MeterGame\Assets\Prefabs\Red
+      Meter Variant.prefab
+    projectPath: Assets\Prefabs\Red Meter Variant.prefab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Assets\Scenes\SampleScene.unity
     fullPath: C:\Users\Rakowski\source\repos\din6885\MeterGame\Assets\Scenes\SampleScene.unity
     projectPath: Assets\Scenes\SampleScene.unity
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Scripts\Generic\GOGameEvent.cs
-    fullPath: C:\Users\Rakowski\source\repos\din6885\MeterGame\Assets\Scripts\Generic\GOGameEvent.cs
-    projectPath: Assets\Scripts\Generic\GOGameEvent.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Scripts\Generic\GOGameEvent.cs.meta
-    fullPath: C:\Users\Rakowski\source\repos\din6885\MeterGame\Assets\Scripts\Generic\GOGameEvent.cs.meta
-    projectPath: Assets\Scripts\Generic\GOGameEvent.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Scripts\Generic\GOGameEventListener.cs
-    fullPath: C:\Users\Rakowski\source\repos\din6885\MeterGame\Assets\Scripts\Generic\GOGameEventListener.cs
-    projectPath: Assets\Scripts\Generic\GOGameEventListener.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Scripts\Generic\GOGameEventListener.cs.meta
-    fullPath: C:\Users\Rakowski\source\repos\din6885\MeterGame\Assets\Scripts\Generic\GOGameEventListener.cs.meta
-    projectPath: Assets\Scripts\Generic\GOGameEventListener.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Scripts\Generic\GOUnityEvent.cs
-    fullPath: C:\Users\Rakowski\source\repos\din6885\MeterGame\Assets\Scripts\Generic\GOUnityEvent.cs
-    projectPath: Assets\Scripts\Generic\GOUnityEvent.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Scripts\Generic\GOUnityEvent.cs.meta
-    fullPath: C:\Users\Rakowski\source\repos\din6885\MeterGame\Assets\Scripts\Generic\GOUnityEvent.cs.meta
-    projectPath: Assets\Scripts\Generic\GOUnityEvent.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Scripts\NPC\NPCGameEvent.cs
-    fullPath: C:\Users\Rakowski\source\repos\din6885\MeterGame\Assets\Scripts\NPC\NPCGameEvent.cs
-    projectPath: Assets\Scripts\NPC\NPCGameEvent.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scripts\NPC\NPCGameEventListener.cs
-    fullPath: C:\Users\Rakowski\source\repos\din6885\MeterGame\Assets\Scripts\NPC\NPCGameEventListener.cs
-    projectPath: Assets\Scripts\NPC\NPCGameEventListener.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scripts\Player\LevelMeter.cs
-    fullPath: C:\Users\Rakowski\source\repos\din6885\MeterGame\Assets\Scripts\Player\LevelMeter.cs
-    projectPath: Assets\Scripts\Player\LevelMeter.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scripts\Player\PlayerData.cs
-    fullPath: C:\Users\Rakowski\source\repos\din6885\MeterGame\Assets\Scripts\Player\PlayerData.cs
-    projectPath: Assets\Scripts\Player\PlayerData.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scripts\Player\PlayerPointer.cs
-    fullPath: C:\Users\Rakowski\source\repos\din6885\MeterGame\Assets\Scripts\Player\PlayerPointer.cs
-    projectPath: Assets\Scripts\Player\PlayerPointer.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scripts\Player\PlayerScreen.cs
-    fullPath: C:\Users\Rakowski\source\repos\din6885\MeterGame\Assets\Scripts\Player\PlayerScreen.cs
-    projectPath: Assets\Scripts\Player\PlayerScreen.cs
+  - path: Assets\Sprites\PixelUIpack\Spritesheet\UIpackSheet_transparent.png.meta
+    fullPath: C:\Users\Rakowski\source\repos\din6885\MeterGame\Assets\Sprites\PixelUIpack\Spritesheet\UIpackSheet_transparent.png.meta
+    projectPath: Assets\Sprites\PixelUIpack\Spritesheet\UIpackSheet_transparent.png.meta
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -178,27 +90,33 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\InspectorExpandedItems.asset
-    fullPath: C:\Users\Rakowski\source\repos\din6885\MeterGame\Library\InspectorExpandedItems.asset
-    projectPath: Library\InspectorExpandedItems.asset
+  - path: Library\SceneVisibilityState.asset
+    fullPath: C:\Users\Rakowski\source\repos\din6885\MeterGame\Library\SceneVisibilityState.asset
+    projectPath: Library\SceneVisibilityState.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Assembly-CSharp.dll
-    fullPath: C:\Users\Rakowski\source\repos\din6885\MeterGame\Library\ScriptAssemblies\Assembly-CSharp.dll
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+  - path: Library\StateCache\Hierarchy\350638-34af764f73af46b82b.json
+    fullPath: C:\Users\Rakowski\source\repos\din6885\MeterGame\Library\StateCache\Hierarchy\350638-34af764f73af46b82b.json
+    projectPath: Library\StateCache\Hierarchy\350638-34af764f73af46b82b.json
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
-    fullPath: C:\Users\Rakowski\source\repos\din6885\MeterGame\Library\ScriptAssemblies\Assembly-CSharp.pdb
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+  - path: Library\StateCache\Hierarchy\350638-7c1a153ff95986d338.json
+    fullPath: C:\Users\Rakowski\source\repos\din6885\MeterGame\Library\StateCache\Hierarchy\350638-7c1a153ff95986d338.json
+    projectPath: Library\StateCache\Hierarchy\350638-7c1a153ff95986d338.json
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
-    fullPath: C:\Users\Rakowski\source\repos\din6885\MeterGame\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+  - path: Library\StateCache\Hierarchy\350638-c738f86545b7e158b9.json
+    fullPath: C:\Users\Rakowski\source\repos\din6885\MeterGame\Library\StateCache\Hierarchy\350638-c738f86545b7e158b9.json
+    projectPath: Library\StateCache\Hierarchy\350638-c738f86545b7e158b9.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\StateCache\Hierarchy\350638-fcadad0215c5a3d55a.json
+    fullPath: C:\Users\Rakowski\source\repos\din6885\MeterGame\Library\StateCache\Hierarchy\350638-fcadad0215c5a3d55a.json
+    projectPath: Library\StateCache\Hierarchy\350638-fcadad0215c5a3d55a.json
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -208,15 +126,33 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\StateCache\SceneView\1169b1-mainStage.json
-    fullPath: C:\Users\Rakowski\source\repos\din6885\MeterGame\Library\StateCache\SceneView\1169b1-mainStage.json
-    projectPath: Library\StateCache\SceneView\1169b1-mainStage.json
+  - path: Library\StateCache\SceneView\1169b1-34af764f73af46b82b.json
+    fullPath: C:\Users\Rakowski\source\repos\din6885\MeterGame\Library\StateCache\SceneView\1169b1-34af764f73af46b82b.json
+    projectPath: Library\StateCache\SceneView\1169b1-34af764f73af46b82b.json
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    fullPath: C:\Users\Rakowski\source\repos\din6885\MeterGame\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+  - path: Library\StateCache\SceneView\1169b1-7c1a153ff95986d338.json
+    fullPath: C:\Users\Rakowski\source\repos\din6885\MeterGame\Library\StateCache\SceneView\1169b1-7c1a153ff95986d338.json
+    projectPath: Library\StateCache\SceneView\1169b1-7c1a153ff95986d338.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\StateCache\SceneView\1169b1-c738f86545b7e158b9.json
+    fullPath: C:\Users\Rakowski\source\repos\din6885\MeterGame\Library\StateCache\SceneView\1169b1-c738f86545b7e158b9.json
+    projectPath: Library\StateCache\SceneView\1169b1-c738f86545b7e158b9.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\StateCache\SceneView\1169b1-fcadad0215c5a3d55a.json
+    fullPath: C:\Users\Rakowski\source\repos\din6885\MeterGame\Library\StateCache\SceneView\1169b1-fcadad0215c5a3d55a.json
+    projectPath: Library\StateCache\SceneView\1169b1-fcadad0215c5a3d55a.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\StateCache\SceneView\1169b1-mainStage.json
+    fullPath: C:\Users\Rakowski\source\repos\din6885\MeterGame\Library\StateCache\SceneView\1169b1-mainStage.json
+    projectPath: Library\StateCache\SceneView\1169b1-mainStage.json
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
